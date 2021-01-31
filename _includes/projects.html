@@ -1,16 +1,16 @@
 <div class="flex flex-col">
-  <h1 class="text-4xl text-center">My work</h1>
+  <h1 class="text-4xl text-center">Meine Arbeit</h1>
   {% for post in site.posts %}
   <div class="flex flex-row">
     <div class="image">
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <a href="{{ post.url | relative_url }}">
         <img src="{{ post.image-prev }}" alt="{{ post.title }}" />
       </a>
     </div>
     <div>
       <header>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
         </h2>
@@ -18,7 +18,7 @@
       </header>
       <div class="excerpt">
         {{ post.excerpt }}
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="button" href="{{ post.url | relative_url }}">
           {{ site.theme_settings.str_continue_reading }}
         </a>
       </div>
