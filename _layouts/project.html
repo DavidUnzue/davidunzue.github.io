@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    <h2 class="title">{{ page.title }}</h2>
+    <p class="meta">
+    {{ page.date | date: "%B %-d, %Y" }}
+    {% if page.author %} - {{ page.author }}{% endif %}
+    </p>
+    {% if page.project-url %}
+    <p class="text-center project-url">
+      <a href="http://{{ page.project-url }}" target="_blank">{{ page.project-title }}</a>
+    </p>
+    {% endif %}
+  </header>
+  <section class="post-content">
+    {% if page.image %}
+    <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}" />
+    {% endif %}
+    <p>
+      {{ content }}
+    </p>
+  </section>
+</article>
+
+<!-- Post navigation -->
+{% if site.theme_settings.post_navigation %}
+<div id="post-nav">
+    {% if page.previous.url %}
+    <a id="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">
+      <span class="page-title">{{ page.previous.title }}</span>
+      <span class="nav-label">
+        <i class="fa fa-chevron-left"></i> {{ site.theme_settings.str_prev }}
+      </span>
+    </a>
+    {% endif %}
+    {% if page.next.url %}
+    <a id="next-post" href="{{ site.baseurl }}{{ page.next.url }}">
+       <span class="page-title">{{ page.next.title }}</span>
+       <span class="nav-label">
+        {{ site.theme_settings.str_next }} <i class="fa fa-chevron-right"></i>
+       </span>
+     </a>
+    {% endif %}
+</div>
+{% endif %}
