@@ -7,7 +7,11 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Source Sans Pro", "Helvetica", "Arial", "sans-serif"],
+      },
+    },
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
