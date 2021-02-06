@@ -5,10 +5,6 @@ project-title: festival-momentum.de
 project-url: festival-momentum.de
 image-prev: img/festival-momentum-prev.jpg
 image: img/festival-momentum.png
-tags:
-  - Middleman
-  - Tailwind CSS
-  - Webpack
 ---
 
 Festival Momentum, a classiccal music festival that takes place every summer in Stolberg, Germany.

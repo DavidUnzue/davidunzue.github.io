@@ -6,6 +6,3 @@ exclude:
   - "package*.json"
   - "assets"
   - "node_modules"
-
-theme_settings:
-  str_read_more: "Mehr lesen"
