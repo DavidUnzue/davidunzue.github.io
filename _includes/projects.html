@@ -1,26 +1,32 @@
 <div class="flex flex-col">
-  <h1 class="text-4xl text-center">Meine Arbeit</h1>
+  <h1 class="text-4xl text-center mb-20">Meine Arbeit</h1>
   {% for post in site.posts %}
-  <div class="flex flex-row">
-    <div class="image">
+  <div class="flex flex-row flex-wrap mb-12">
+    <div class="flex-none lg:flex-1 p-4 max-w-full">
       <a href="{{ post.url | relative_url }}">
         <img src="{{ post.image-prev }}" alt="{{ post.title }}" />
       </a>
     </div>
-    <div>
-      <header>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-      </header>
-      <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | relative_url }}">
-          {{ site.theme_settings.str_continue_reading }}
+    <div class="flex-none lg:flex-1 max-w-full">
+      <div class="p-12">
+        <header class="mb-6">
+          <h2 class="text-2xl font-bold text-indigo-600">{{ post.title }}</h2>
+          <p class="text-indigo-400">{{ post.date | date: "%B %-d, %Y" }}</p>
+        </header>
+        <div class="pb-6">{{ post.excerpt }}</div>
+        <a
+          class="py-2 px-6 mb-8 border border-gray-400 text-gray-500 rounded-sm inline-block"
+          href="{{ post.url | relative_url }}"
+        >
+          {{ site.theme_settings.str_read_more }}
         </a>
+        <ul class="flex">
+          {% for tag in post.tags %}
+          <li class="py-2 px-4 mr-1 bg-gray-200 text-gray-400 font-light">
+            {{ tag }}
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
