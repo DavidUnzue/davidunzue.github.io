@@ -8,3 +8,6 @@ exclude:
 
 theme_settings:
   str_read_more: "Mehr lesen"
+
+general:
+  title: David Unzue
