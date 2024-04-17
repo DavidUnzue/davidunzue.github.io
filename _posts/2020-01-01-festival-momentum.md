@@ -3,8 +3,8 @@ layout: project
 title: Klassik Festival Momentum Stolberg
 project-title: festival-momentum.de
 project-url: festival-momentum.de
-image-prev: img/festival-momentum-prev.jpg
-image: img/festival-momentum.png
+image-prev: festival-momentum-prev.jpg
+image: festival-momentum.png
 tags:
   - Middleman
   - Tailwind CSS

@@ -2,27 +2,31 @@
 layout: default
 ---
 
-<article class="flex flex-col items-center text-center">
-  <header
-    style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')"
-  >
-    <h2 class="text-2xl">{{ page.title }}</h2>
-    <p class="text-lg">
-      {{ page.date | date: "%B %-d, %Y" }} {% if page.author %} - {{ page.author
-      }}{% endif %}
-    </p>
-    {% if page.project-url %}
-    <p class="py-6">
-      <a href="http://{{ page.project-url }}" target="_blank"
-        >{{ page.project-title }}</a
-      >
-    </p>
-    {% endif %}
-  </header>
-  <section class="prose lg:prose-lg">
+{%-include back_link.html-%}
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+  </p>
+  
+  <h1>{{ page.title }}</h1>
+
+  {% if page.project-url %}
+  <p>
+    <a href="http://{{ page.project-url }}" target="_blank"
+      >{{ page.project-title }}</a
+    >
+  </p>
+  {% endif %}
+
+  <section>
+    {{ content }}
+
     {% if page.image %}
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+    <a href="{{ page.image | prepend: 'assets/images/' | relative_url }}" target="_blank">
+      <img src="{{ page.image | prepend: 'assets/images/' | relative_url }}" class="project-image" alt="{{ page.title }}" />
+    </a>
     {% endif %}
-    <p>{{ content }}</p>
   </section>
+
 </article>

@@ -3,8 +3,8 @@ layout: project
 title: Beyond Limits
 project-title: beyond-limits-sports.com
 project-url: beyond-limits-sports.com
-image-prev: img/beyond-limits-prev.jpg
-image: img/beyond-limits.png
+image-prev: beyond-limits-prev.jpg
+image: beyond-limits.png
 ---
 
 Responsive one pager website for Christin Just and her personal training offer "Beyond Limits".

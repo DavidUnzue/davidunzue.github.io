@@ -3,8 +3,8 @@ layout: project
 title: Personal training by Christoph Weber
 project-title: weber-training.com
 project-url: weber-training.com
-image-prev: img/weber-training-prev.jpg
-image: img/weber-training.jpg
+image-prev: weber-training-prev.jpg
+image: weber-training.jpg
 tags:
   - Kirby CMS
   - Bootstrap

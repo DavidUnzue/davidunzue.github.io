@@ -3,8 +3,8 @@ layout: project
 title: Weekly Workout
 project-title: weekly-workout.de
 project-url: weekly-workout.de
-image-prev: img/weekly-workout-prev.jpg
-image: img/weekly-workout.png
+image-prev: weekly-workout-prev.jpg
+image: weekly-workout.png
 tags:
   - Jigsaw
   - Tailwind CSS

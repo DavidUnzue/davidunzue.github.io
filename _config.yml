@@ -1,13 +1,26 @@
+title: Hi, I'm David # name of the site
+author: David Unzue # name of site's author
+email: david@unzue.de # email of site's author
+url: https://davidunzue.com # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  I'm a software engineer based in Germany.
+
+permalink: /:slug.html
+
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".. go back" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
 plugins:
-  - jekyll-postcss
-
-exclude:
-  - "*.config.js"
-  - "package*.json"
-  - "node_modules"
-
-theme_settings:
-  str_read_more: "Mehr lesen"
-
-general:
-  title: David Unzue
+  - jekyll-feed
+  - jekyll-seo-tag

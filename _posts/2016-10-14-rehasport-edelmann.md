@@ -3,8 +3,8 @@ layout: project
 title: Rehasport Edelmann
 project-title: rehasport-edelmann.de
 project-url: rehasport-edelmann.de
-image-prev: img/rehasport-edelmann-prev.jpg
-image: img/rehasport-edelmann.jpg
+image-prev: rehasport-edelmann-prev.jpg
+image: rehasport-edelmann.jpg
 ---
 
 Responsive one pager website for Kai Edelmann, a rehabilitation excersice trainer in Germany.
