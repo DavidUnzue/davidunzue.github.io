@@ -9,7 +9,7 @@ entries:
       - title: Github
         url: https://github.com/davidunzue
 
-  - title: my work
+  - title: my freelance work
     post_list:
       limit: 10
       show_more: true
