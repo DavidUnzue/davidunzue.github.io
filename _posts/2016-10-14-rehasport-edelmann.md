@@ -9,6 +9,8 @@ image: rehasport-edelmann.jpg
 
 Responsive one pager website for Kai Edelmann, a rehabilitation excersice trainer in Germany.
 
-I used [Pure.css](http://purecss.io/) for the genuine design and [Responsive Nav](http://responsive-nav.com/) for the navigation.
+**What I did**: visual design, logotype design, server infrastructure, content creation, information architecture, code implementation, set-up and deployment.
 
-I also created the logotype.
+**Tech stack**: PHP, Pure CSS, Gulp.
+
+**Characteristics**: responsive, one pager, contact form.

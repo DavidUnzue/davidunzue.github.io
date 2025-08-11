@@ -4,7 +4,7 @@ email: david@unzue.de # email of site's author
 url: https://davidunzue.com # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  I'm a software engineer based in Germany.
+  I'm a software engineer with a creative mind and an eye for design.
 
 permalink: /:slug.html
 

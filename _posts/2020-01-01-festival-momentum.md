@@ -13,6 +13,8 @@ tags:
 
 Festival Momentum, a classiccal music festival that takes place every summer in Stolberg, Germany.
 
+**What I did**: visual design, server infrastructure, information architecture, content creation, code implementation, set-up and deployment.
+
 **Tech stack**: Ruby on Rails, Middleman, Tailwind CSS, ES6, Webpack.
 
 **Characteristics**: responsive, static site.

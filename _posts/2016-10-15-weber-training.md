@@ -13,8 +13,8 @@ tags:
 
 Responsive website for Christoph Weber, a personal trainer in Germany.
 
-Since the client wanted to be able to change the contents (text, images, etc.) by himself, I set up a Content Management System using [Kirby](https://getkirby.com), which is written in PHP.
+**What I did**: visual design, logotype design, server infrastructure, information architecture, code implementation, set-up and deployment.
 
-For the front-end design I used the [Bootstrap](http://responsive-nav.com/) framework and created a genuine theme.
+**Tech stack**: PHP, Kirby CMS, Bootstrap CSS, Gulp.
 
-I also created the logotype.
+**Characteristics**: responsive, CMS, contact form.

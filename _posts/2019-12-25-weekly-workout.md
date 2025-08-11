@@ -13,6 +13,8 @@ tags:
 
 Weekly Workout, a micro fitness club in Langen, Germany.
 
+**What I did**: visual design, server infrastructure, information architecture, content creation, code implementation, set-up and deployment.
+
 **Tech stack**: PHP, Jigsaw, Webpack, Tailwind CSS.
 
 **Characteristics**: responsive, static site, contact form.

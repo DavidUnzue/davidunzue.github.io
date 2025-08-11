@@ -4,13 +4,13 @@ title: C.D. Kirol Sport
 project-title: kirolsport.es
 project-url: relaunch.kirolsport.es
 image-prev: kirolsport-prev.png
-image: kirolsport-prev.png
+image: kirolsport.png
 ---
 
 Responsive website for C.D. Kirol Sport, a sports club based in Orkoien, Spain.
 
-Customized content management using the [Kirby CMS](https://getkirby.com), written in PHP.
+**What I did**: visual design, logotype design, server infrastructure, content creation, information architecture, code implementation, set-up and deployment.
 
-Front-end design using the [PureCSS](http://purecss.io/) framework.
+**Tech stack**: PHP, Pure CSS, Kirby CMS.
 
-I also created the logotype.
+**Characteristics**: responsive, CMS, contact form.

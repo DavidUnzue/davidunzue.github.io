@@ -9,6 +9,8 @@ image: beyond-limits.png
 
 Responsive one pager website for Christin Just and her personal training offer "Beyond Limits".
 
-Since the client wished to be able to change the contents (text, images, etc.) by herself, I set up a Content Management System using [Kirby](https://getkirby.com), which is written in PHP.
+**What I did**: visual design, server infrastructure, information architecture, code implementation, set-up and deployment.
 
-For the front-end design I used the [Bootstrap](http://responsive-nav.com/) framework.
+**Tech stack**: PHP, Bootstrap CSS, Kirby CMS.
+
+**Characteristics**: responsive, CMS, one-pager, contact form.
